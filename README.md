@@ -1,0 +1,1 @@
+The dashboard app is found within the nextjs-dashboard folder
