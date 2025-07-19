@@ -7,6 +7,11 @@ import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
 import { SearchParams } from 'next/dist/server/request/search-params';
 import { fetchInvoicesPages } from '@/app/lib/data';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Invoices',
+};
  
 export default async function Page(props: {
     searchParams?: Promise<{
